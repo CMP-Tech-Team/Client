@@ -1,0 +1,36 @@
+.image-slider {
+    position: relative;
+    text-align: center;
+    padding-left: 8vmin;
+    padding-right: 8vmin;
+    margin-bottom: 8vmin;
+    margin-top: 8vmin;
+
+  }
+  
+  .img-car {
+    max-width:  40%;
+    max-height: 40%;
+    border: 6px solid#b1140d;
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 8vmin;
+    padding-right: 8vmin;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+
+  }

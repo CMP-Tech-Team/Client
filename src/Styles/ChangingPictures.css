@@ -1,0 +1,28 @@
+    .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 18vmin;
+        margin-right: 18vmin;
+        min-height: 650px;
+
+     }
+
+    .image-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: transform 1s ease;
+        white-space: nowrap;
+        min-height: 650px;
+    }
+  
+    .image-container img {
+        border: 6px solid#b1140d;
+        transition: transform 1s ease-in-out;
+      }
+    .img-cur{
+        height: auto;
+        width: 30%;
+    } 
+

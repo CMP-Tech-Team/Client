@@ -1,0 +1,43 @@
+ .col1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8vmin;
+    margin-bottom: 8vmin;
+
+ }
+
+ .header-tag{
+    display: flex;
+    justify-content: center;
+ }
+ .col2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15vmin;
+    margin-bottom: 8vmin;
+ }
+ .col3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15vmin;
+    margin-bottom: 8vmin;
+ }
+
+ .picture{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vmin;
+ }
+
+ h4{
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-size: 23px;
+ }
+ 
+ .container-box{
+    max-width: 300px;
+    min-width: 300px;
+ }
+
+ 

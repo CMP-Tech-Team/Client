@@ -1,0 +1,119 @@
+
+.bar-1{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    transform: translateY(9px) rotate(90deg);
+    background-color: #b1140d;
+
+}
+.bar-3{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    transform: translateY(9px) rotate(90deg);
+    background-color: #b1140d;
+
+}
+.bar-4{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    transform: translateY(9px) rotate(90deg);
+    background-color: #b1140d;
+
+}
+.bar-5{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    transform: translateY(9px) rotate(90deg);
+    background-color: #b1140d;
+
+}
+.bar-6{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    transform: translateY(9px) rotate(90deg);
+    background-color: #b1140d;
+
+}
+
+.bar-invis{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    transform: translateY(9px) rotate(90deg);
+
+}
+
+.bar-2{
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:#b1140d;
+
+}
+.third-section{
+    display: flex;
+    margin-bottom: 10vmin;
+}
+
+.sections{
+    display: flex;
+    min-height: 40px;
+    margin-top: 5vmin;
+    margin-left: 20vmin;
+}
+
+.plus{
+    padding-top: 4px;
+    margin-right: 20px;
+}
+.in{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.btn-cmps{
+    display: flex;
+    
+}
+
+.btn-cmps:hover{
+    cursor: pointer;
+}
+
+.dropdown{
+ margin-left: 25vmin;
+}
+
+.A-series{
+    height: 30%;
+    width: 30%;
+    margin-left: 8vmin;
+    border: 6px solid#b1140d;
+}
+
+.in-line-pic{
+    display: flex;
+    align-items: center;
+    margin-right: 25vmin;
+}

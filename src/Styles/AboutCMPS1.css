@@ -1,0 +1,54 @@
+.CMPS-Info{
+    display: flex;
+}
+.CMPS-Tags{
+    
+    margin-left: 20vmin;
+}
+.unordered-cmps{
+    min-width: 450px;
+    min-height: 450px;
+}
+.unordered-cmps li{
+    min-height: 12vmin;
+    display: flex; 
+    align-items: center;
+    color: #b1140d;
+    font-weight: bold;
+}
+
+.unordered-cmps li:hover{
+    cursor: pointer;
+    background-color:#f7ab54;
+}
+
+.picture2{
+    margin-right: 3vmin;
+}
+
+.CMPS-Info{
+    background-color: #feea8fa4;
+}
+.CMPS-information{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+
+.CMPS-information-title{
+    padding-top: 4vmin;
+    padding-bottom: 4vmin;
+    background-color:#b1140d;
+    text-align: center;
+    color: #fee98f;
+    
+}
+
+.CMPS-prop-info .meto-p1{
+    margin-bottom: 5vmin;
+    margin-top: 5vmin;
+    margin-left: 15vmin;
+    margin-right: 15vmin;
+    font-weight: bold;
+    font-size: 20px;
+}

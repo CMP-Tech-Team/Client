@@ -1,0 +1,92 @@
+.contact{
+    display: table;
+    min-width: 500px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #800f09;
+    border-radius: 40px;
+}
+
+.header1{
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+button{
+    margin-top: 35px;
+    background-color: white;
+    border: 1px solid white;
+    line-height: 0;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px ;
+    border-radius: 60px;
+    color: #800f09;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    z-index: 1;
+}
+
+button:hover{
+    color: white;
+    background-color:#b1140d;
+    cursor: pointer;
+}
+
+.input1{
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid white;
+    line-height: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 15px ;
+    border-radius: 10px;
+    color: black;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    z-index: 1;
+    width: 100%;
+}
+
+.message{
+    resize: none;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 15px ;
+    border-radius: 10px;
+    margin-top: 12px;
+    border-color: white;
+    width: 100%;
+}
+
+#check:checked ~ .contact {
+    display: none;
+}
+
+@media (max-width: 1024px){
+  .contact{
+    min-width: 80vmin;
+  }
+}
+@media (max-width: 550px){
+    .contact{
+        min-width: 90vmin;
+        min-height: 6px;
+    }
+    .message{
+        resize: none;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px 15px ;
+        border-radius: 10px;
+        margin-top: 12px;
+        border-color: green;
+        width: 100%;
+
+  }
+}
