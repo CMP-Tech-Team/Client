@@ -4,6 +4,7 @@ import {FaBars, FaTimes} from 'react-icons/fa';
 import {useState} from 'react'
 import { useRef } from 'react';
 import "../Styles/Navbar.css";
+import CMPSLOGO from '../Imgs/CMPSLOGO.png'
 
 const Navbar = () =>{
     const navRef = useRef();
@@ -28,7 +29,7 @@ const Navbar = () =>{
                         <span className = "bar"></span>
                 </label>
 
-                <label className = "logo"> Logo </label>
+                <img className = "logo" src={CMPSLOGO}/>
                 <ul>
                     <CustomeLink className="CustomeLink" to = ""> Home </CustomeLink>
                     <CustomeLink className="CustomeLink" to = "Aboutus" > About CMPS </CustomeLink>
