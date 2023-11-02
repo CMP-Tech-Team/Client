@@ -1,0 +1,11 @@
+.image-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-gallery img {
+    margin: 5px;
+    max-width: 30%;
+    height: auto;
+  }

@@ -8,14 +8,17 @@
   
   /* Style the header */
   .header {
-    background-color: #fee98f;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 900px;
-    padding: 30px;
     text-align: center;
     font-size: 35px;
+  }
+
+  .banner{
+    width: 100%;
   }
 
   .header-1{
@@ -44,26 +47,26 @@
   }
   
   .column:nth-child(1){
-    background-color:  #fee98f ;
+    background-color:  white ;
   }
   .column:nth-child(2){
     background-color: #feea8fa4;
   }
   .column:nth-child(3){
-    background-color: #fee98f;
+    background-color: white;
   }
   .column:nth-child(5){
-    background-color: #fee98f;
+    background-color: white;
   }
 
   .column:nth-child(7){
-    background-color: #fee98f;
+    background-color: white;
   }
   .column:nth-child(8){
-    background-color: #fee98f;
+    background-color: white;
   }
   .column:nth-child(9){
-    background-color: #fee98f;
+    background-color: white;
   }
 
 

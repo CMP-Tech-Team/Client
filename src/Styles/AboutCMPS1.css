@@ -40,7 +40,7 @@
     padding-bottom: 4vmin;
     background-color:#b1140d;
     text-align: center;
-    color: #fee98f;
+    color: white;
     
 }
 
@@ -51,4 +51,8 @@
     margin-right: 15vmin;
     font-weight: bold;
     font-size: 20px;
+}
+
+.slogan{
+    margin-top: 2vmin;
 }

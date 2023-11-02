@@ -2,22 +2,64 @@ import {Diamonds, AddSubtract, BookOpen, Flask, Bookmark, School} from '@icon-pa
 import "../Styles/AboutCMPS1.css";
 import React, {useState} from "react";
 import AboutCMPS3 from '../components/AboutCMPS3';
+import AboutCMPS4 from '../components/AboutCMPS4';
+
+import IMG_0066 from '../Imgs/IMG_0066.jpg'
+import IMG_0065 from '../Imgs/IMG_0065.jpg'
+import IMG_0064 from '../Imgs/IMG_0064.jpg'
+import IMG_0063 from '../Imgs/IMG_0063.jpg'
+import IMG_0062 from '../Imgs/IMG_0062.jpg'
+import IMG_0061 from '../Imgs/IMG_0061.jpg'
 import IMG_0060 from '../Imgs/IMG_0060.jpg'
-import IMG_0068 from '../Imgs/IMG_0068.jpg'
-import IMG_0069 from '../Imgs/IMG_0069.jpg'
-import IMG_0070 from '../Imgs/IMG_0070.jpg'
+
+
+import STEAMEducation from '../Imgs/STEAM Education.png'
+import PersonalA from '../Imgs/Personal Altamente Cualificado.png'
+import Meto1 from '../Imgs/METODOLOGIA MONTESSORI.png'
+import Meto2 from '../Imgs/METODOLOGIA MONTESSORI1.png'
+import Mate from '../Imgs/Matemáticas Metodo Singapur.png'
+import ingles1 from '../Imgs/Ingles Intensivo con Profesoras Extranjeras1.png'
+import ingles2 from '../Imgs/Ingles Intensivo con Profesoras Extranjeras.png'
+
 
 const AboutCMPS1 = () => {
 
 
     const imagesC =[
-        IMG_0060,
-        IMG_0068,
-        IMG_0069,
-        IMG_0070
-    ]
+        IMG_0066,
+        IMG_0065,
+        IMG_0064,
+        IMG_0063,
+        IMG_0062,
+        IMG_0061,
+        IMG_0060
+    ];
+
+    const imagesMat = [
+        Mate
+    ];
+
+    const imagesP = [
+        PersonalA
+    ];
+
+    const imagesS = [
+        STEAMEducation
+    ];
+
+    const imagesM =[
+        Meto1,
+        Meto2
+    ];
+    
+    const imagesI = [
+        ingles1,
+        ingles2
+    ];
 
     const [showAboutCMPS3, setShowAboutCMPS3] = useState(false);
+    const [showAboutCMPS4, setShowAboutCMPS4] = useState(false);
+    const [currentImages, setCurrentImages] = useState(null);
 
     const [para1, setPara1] = useState("El Método Montessori es un enfoque individualizado de aprendizaje desarrollado por la Dra. Maria Montessori que permite al niño desarrollarse y aprender a su propio ritmo a través de materiales científicamente desarrollados y lecciones guiadas uno a uno por el maestro. El Método Montessori fomenta el aprendizaje independiente a través de la creatividad, la exploración y la investigación.");
     const [para2, setPara2] = useState("Utilizamos la reconocida metodología Montessori y materiales Montessori especializados para brindar a su hijo una educación única. Aquí, su hijo descubrirá un mundo de aprendizaje personalizado, independencia, creatividad y una sólida base para un futuro brillante. Fomentamos la autonomía, el pensamiento crítico y el amor por el conocimiento desde el principio. Su elección de hoy, sera el éxito de su hijo mañana.");
@@ -32,6 +74,8 @@ const AboutCMPS1 = () => {
         setPara3("");
         setPara4("");
         setShowAboutCMPS3(false);
+        setShowAboutCMPS4(true);
+        setCurrentImages(imagesM)
     }
 
     const setMate = () =>{
@@ -41,6 +85,8 @@ const AboutCMPS1 = () => {
         setPara3("");
         setPara4("");
         setShowAboutCMPS3(false);
+        setShowAboutCMPS4(true);
+        setCurrentImages(imagesMat);
     }
     const setIng = () =>{
         setTitle("Ingles Intensivo con Profesoras Extranjeras");
@@ -49,6 +95,8 @@ const AboutCMPS1 = () => {
         setPara3("");
         setPara4("");
         setShowAboutCMPS3(false);
+        setShowAboutCMPS4(true);
+        setCurrentImages(imagesI)
     }
     const setSteam = () =>{
         setTitle("STEAM Education");
@@ -57,6 +105,8 @@ const AboutCMPS1 = () => {
         setPara3("");
         setPara4("");
         setShowAboutCMPS3(false);
+        setShowAboutCMPS4(true);
+        setCurrentImages(imagesS);
     }
     const setInsta = () =>{
         setTitle("Instalaciones Modernas y Seguras");
@@ -64,6 +114,7 @@ const AboutCMPS1 = () => {
         setPara2("Protocolos de seguridad impecables: Mantenemos los más altos estándares de seguridad con protocolos certificados para garantizar un ambiente protector y tranquilo.");
         setPara3("Espacios al aire libre excepcionales: Dos parques al aire libre proporcionan áreas expansivas para que los niños jueguen y se desarrollen en un entorno saludable.");
         setShowAboutCMPS3(true);
+        setShowAboutCMPS4(false);
         setPara4("Vigilancia total: Contamos con un sistema de 16 cámaras de seguridad que cubren cada rincón, sin puntos ciegos, brindando tranquilidad y protección constante.");
     }
     const setPers = () =>{
@@ -73,6 +124,9 @@ const AboutCMPS1 = () => {
         setPara3("");
         setPara4("");
         setShowAboutCMPS3(false);
+        setShowAboutCMPS4(true);
+        setCurrentImages(imagesP);
+
     }
 
 return(
@@ -119,6 +173,10 @@ return(
                     {showAboutCMPS3 && 
                         <AboutCMPS3 imagesC={imagesC}/>
                     }
+                    {showAboutCMPS4 && 
+                        <AboutCMPS4 imagesS={currentImages}/>
+                    }
+
   
                 </div>
             </div>
